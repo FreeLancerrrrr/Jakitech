@@ -4,6 +4,10 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { HashLink } from 'react-router-hash-link';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -58,7 +62,13 @@ export const Banner = () => {
                 <span className="tagline">Welcome to Jakki Tech</span>
                 <h1>{`Troubling create your app? No worry, We will help you!!!`} </h1>
                   <p>We are an organization that provide different services in IT such as App/Software Development, Web development and UI or UX Design. </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <Router>
+                    <div>
+                      <HashLink style={{textDecoration: 'none'}} to='#connect'>
+                        <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                      </HashLink>
+                    </div>
+                  </Router>
               </div>}
             </TrackVisibility>
           </Col>

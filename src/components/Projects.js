@@ -11,8 +11,8 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Task Management App",
+      description: "by Lee Ji Eun",
       imgUrl: projImg1,
     },
     {

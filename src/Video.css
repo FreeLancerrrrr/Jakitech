@@ -1,0 +1,8 @@
+.video-js{
+    display:block;
+    
+}
+
+.video-js .vjs-big-play-buttom{
+    background-color: chartreuse!important;
+}

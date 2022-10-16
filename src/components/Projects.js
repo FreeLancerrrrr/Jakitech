@@ -5,6 +5,8 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import video1 from "../assets/Video/Poster.mp4"
+import video2 from "../assets/Video/Poster.mp4"
+import video3 from "../assets/Video/Poster.mp4"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -14,7 +16,7 @@ export const Projects = () => {
     {
       title: "Task Management App",
       description: "by Lee Ji Eun",
-      video:video1,
+      video:video2,
     },
     {
       title: "Business Startup",
@@ -24,7 +26,12 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      video:video1,
+      video:video3,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      video:video2,
     },
     {
       title: "Business Startup",
@@ -34,12 +41,7 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      video:video1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      video:video1,
+      video:video3,
     },
   ];
 
@@ -52,7 +54,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Struggling on the services? <br></br>Let's get a look on the demo or projects created below!</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

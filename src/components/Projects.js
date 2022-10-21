@@ -4,6 +4,9 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import video1 from "../assets/video/iu.mp4"
 import video2 from "../assets/video/iu.mp4"
 import video3 from "../assets/video/iu.mp4"
+import video4 from "../assets/video/Forgot.mp4"
+import video5 from "../assets/video/Forgot.mp4"
+import video6 from "../assets/video/NavigationDrawerr.mp4"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -26,19 +29,19 @@ export const Projects = () => {
       video:video3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      video:video2,
+      title: "H & F Utoopia",
+      description: "By Yik Khong Ho",
+      video:video4,
+    },
+    {
+      title: "Note Application",
+      description: "By Yik Khong Ho",
+      video:video5,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      video:video1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      video:video3,
+      video:video6,
     },
   ];
 

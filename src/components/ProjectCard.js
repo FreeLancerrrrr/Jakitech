@@ -5,7 +5,7 @@ export const ProjectCard = ({ title, description, video }) => {
     <Col size={12} sm={6} md={4}>
       <div className="proj-videobx">
         <video
-            style={{ maxWidth: "100%", width: "800px", margin: "0 auto" }}
+            style={{ maxWidth: "100%", width: "800px", height:"200px", margin: "0 auto" }}
             playsInline
             autoPlay
             loop

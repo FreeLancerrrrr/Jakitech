@@ -8,7 +8,7 @@ import video3 from "../assets/video/iu.mp4"
 import video4 from "../assets/video/Forgot.mp4"
 import video5 from "../assets/video/Forgot.mp4"
 import video6 from "../assets/video/NavigationDrawerr.mp4"
-import img1 from "../assets/img/project-img1.png";
+import img1 from "../assets/img/img1.png";
 import img2 from "../assets/img/project-img2.png";
 import img3 from "../assets/img/project-img3.png";
 import 'animate.css';
@@ -49,7 +49,7 @@ export const Projects = () => {
     },
   ];
 
-  const appDev = [
+  const webDev = [
     {
       title: "Business Startup",
       description: "Design & Development",
@@ -68,7 +68,7 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img1,
+      imgUrl: img2,
     },
     {
       title: "Business Startup",
@@ -155,7 +155,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                       <Row>
                           {
-                            appDev.map((project, index) => {
+                            webDev.map((project, index) => {
                               return (
                                 <CardView
                                   key={index}

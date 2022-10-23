@@ -11,6 +11,7 @@ import video6 from "../assets/video/NavigationDrawerr.mp4"
 import img1 from "../assets/img/img1.png";
 import img2 from "../assets/img/project-img2.png";
 import img3 from "../assets/img/project-img3.png";
+import webvideo2 from "../assets/video/WebDevelopment";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -52,7 +53,7 @@ export const Projects = () => {
   const webDev = [
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "Cyber Awareness Promotion Website",
       imgUrl: img1,
     },
     {
@@ -62,7 +63,7 @@ export const Projects = () => {
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "Promotion Website For Durham Constabulary",
       imgUrl: img3,
     },
     {
@@ -171,7 +172,7 @@ export const Projects = () => {
                           {
                             uiDev.map((project, index) => {
                               return (
-                                <CardView
+                                <UICard
                                   key={index}
                                   {...project}
                                   />

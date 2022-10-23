@@ -5,8 +5,8 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import video1 from "../assets/video/TaskManagement.mp4"
 import video2 from "../assets/video/PasswordStrength.mp4"
 import video3 from "../assets/video/iu.mp4"
-import video4 from "../assets/video/Forgot.mp4"
-import video5 from "../assets/video/Forgot.mp4"
+import video4 from "../assets/video/H&F_Utoopia.mp4"
+import video5 from "../assets/video/JJ.mp4"
 import video6 from "../assets/video/NavigationDrawerr.mp4"
 import img1 from "../assets/img/img1.png";
 import img2 from "../assets/img/project-img2.png";
@@ -39,7 +39,7 @@ export const Projects = () => {
       video:video4,
     },
     {
-      title: "Note Application",
+      title: "Journey Journal (Note Application)",
       description: "By Yik Khong Ho",
       video:video5,
     },

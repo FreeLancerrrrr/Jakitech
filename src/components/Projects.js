@@ -2,16 +2,23 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import { CardView } from "./CardView";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+// App Development
 import video1 from "../assets/video/TaskManagement.mp4"
 import video2 from "../assets/video/PasswordStrength.mp4"
 import video3 from "../assets/video/iu.mp4"
 import video4 from "../assets/video/H&F_Utoopia.mp4"
 import video5 from "../assets/video/JJ.mp4"
 import video6 from "../assets/video/NavigationDrawerr.mp4"
+// Web Development
 import img1 from "../assets/img/img1.png";
 import img2 from "../assets/img/project-img2.png";
 import img3 from "../assets/img/project-img3.png";
 import webvideo2 from "../assets/video/WebDevelopment.mp4";
+// UI & UX Development
+import img4 from "../assets/img/jj1.png";
+import img5 from "../assets/img/jj2.png";
+import img6 from "../assets/img/jj3.png";
+import img7 from "../assets/img/jj4.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -87,22 +94,22 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img1,
+      imgUrl: img4,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img2,
+      imgUrl: img5,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img3,
+      imgUrl: img6,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img1,
+      imgUrl: img7,
     },
     {
       title: "Business Startup",

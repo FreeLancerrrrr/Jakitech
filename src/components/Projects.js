@@ -64,7 +64,7 @@ export const Projects = () => {
     },
     {
       title: "Culinary Web",
-      description: "Jiann Peng Lim",
+      description: "By Jiann Peng Lim",
       video:webvideo2,
     },
   ];

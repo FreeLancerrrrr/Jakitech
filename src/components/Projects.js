@@ -39,7 +39,7 @@ export const Projects = () => {
       video:video4,
     },
     {
-      title: "Journey Journal (Note Application)",
+      title: "Note Application",
       description: "By Yik Khong Ho",
       video:video5,
     },

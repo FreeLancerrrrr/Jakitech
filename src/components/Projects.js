@@ -19,6 +19,8 @@ import img4 from "../assets/img/jj1.png";
 import img5 from "../assets/img/jj2.png";
 import img6 from "../assets/img/jj3.png";
 import img7 from "../assets/img/jj4.png";
+import yik1 from "../assets/img/Picture3.jpg";
+import yik2 from "../assets/img/UIUx.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -51,8 +53,8 @@ export const Projects = () => {
       video:video5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Navigation Drawer",
+      description: "By Yik Khong Ho",
       video:video6,
     },
   ];
@@ -69,8 +71,8 @@ export const Projects = () => {
       video:webvideo2,
     },
     {
-      title: "Business Startup",
-      description: "Promotion Website For Durham Constabulary",
+      title: "Promotion Website For Durham Constabulary",
+      description: "By Yik Khong Ho",
       video:webvideo2,
     },
     {
@@ -114,12 +116,12 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img2,
+      imgUrl: yik1,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img3,
+      imgUrl: yik2,
     },
   ];
 

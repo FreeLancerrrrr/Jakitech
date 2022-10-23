@@ -11,7 +11,7 @@ import video6 from "../assets/video/NavigationDrawerr.mp4"
 import img1 from "../assets/img/img1.png";
 import img2 from "../assets/img/project-img2.png";
 import img3 from "../assets/img/project-img3.png";
-import webvideo2 from "../assets/video/WebDevelopment";
+import webvideo2 from "../assets/video/WebDevelopment.mp4";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -54,32 +54,32 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Cyber Awareness Promotion Website",
-      imgUrl: img1,
+      video:webvideo2,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img2,
+      video:webvideo2,
     },
     {
       title: "Business Startup",
       description: "Promotion Website For Durham Constabulary",
-      imgUrl: img3,
+      video:webvideo2,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img2,
+      video:webvideo2,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img2,
+      video:webvideo2,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img3,
+      video:webvideo2,
     },
   ];
 
@@ -158,7 +158,7 @@ export const Projects = () => {
                           {
                             webDev.map((project, index) => {
                               return (
-                                <CardView
+                                <ProjectCard
                                   key={index}
                                   {...project}
                                   />
@@ -172,7 +172,7 @@ export const Projects = () => {
                           {
                             uiDev.map((project, index) => {
                               return (
-                                <UICard
+                                <CardView
                                   key={index}
                                   {...project}
                                   />

@@ -10,15 +10,12 @@ import video4 from "../assets/video/H&F_Utoopia.mp4"
 import video5 from "../assets/video/JJ.mp4"
 import video6 from "../assets/video/NavigationDrawerr.mp4"
 // Web Development
-import img1 from "../assets/img/img1.png";
-import img2 from "../assets/img/project-img2.png";
-import img3 from "../assets/img/project-img3.png";
-import webvideo2 from "../assets/video/WebDevelopment.mp4";
+import webvideo1 from "../assets/video/WebDevelopment.mp4";
+import webvideo2 from "../assets/video/Web.mp4";
 // UI & UX Development
-import img4 from "../assets/img/jj1.png";
-import img5 from "../assets/img/jj2.png";
-import img6 from "../assets/img/jj3.png";
-import img7 from "../assets/img/jj4.png";
+import img1 from "../assets/img/jj1.png";
+import img2 from "../assets/img/jj2.png";
+import img3 from "../assets/img/jj3.png";
 import yik1 from "../assets/img/Picture3.jpg";
 import yik2 from "../assets/img/UIUx.jpg";
 import 'animate.css';
@@ -61,33 +58,13 @@ export const Projects = () => {
 
   const webDev = [
     {
-      title: "Business Startup",
-      description: "Cyber Awareness Promotion Website",
-      video:webvideo2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      video:webvideo2,
-    },
-    {
-      title: "Promotion Website For Durham Constabulary",
+      title: "Cyber Awareness Promotion Website/Promotion Website For Durham Constabulary",
       description: "By Yik Khong Ho",
-      video:webvideo2,
+      video:webvideo1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      video:webvideo2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      video:webvideo2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Culinary Web",
+      description: "Jiann Peng Lim",
       video:webvideo2,
     },
   ];
@@ -96,27 +73,27 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img4,
+      imgUrl: img1,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img5,
+      imgUrl: img2,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: img6,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: img7,
+      imgUrl: img3,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: yik1,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: yik2,
     },
     {
       title: "Business Startup",

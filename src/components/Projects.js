@@ -5,7 +5,6 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 // App Development
 import video1 from "../assets/video/TaskManagement.mp4"
 import video2 from "../assets/video/PasswordStrength.mp4"
-import video3 from "../assets/video/iu.mp4"
 import video4 from "../assets/video/H&F_Utoopia.mp4"
 import video5 from "../assets/video/JJ.mp4"
 import video6 from "../assets/video/NavigationDrawerr.mp4"
@@ -25,21 +24,6 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Task Management App",
-      description: "By Jiann Peng Lim",
-      video:video1,
-    },
-    {
-      title: "Password Strength Checker",
-      description: "By Jiann Peng Lim",
-      video:video2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      video:video3,
-    },
-    {
       title: "H & F Utoopia",
       description: "By Yik Khong Ho",
       video:video4,
@@ -53,6 +37,16 @@ export const Projects = () => {
       title: "Navigation Drawer",
       description: "By Yik Khong Ho",
       video:video6,
+    },
+    {
+      title: "Task Management App",
+      description: "By Jiann Peng Lim",
+      video:video1,
+    },
+    {
+      title: "Password Strength Checker",
+      description: "By Jiann Peng Lim",
+      video:video2,
     },
   ];
 

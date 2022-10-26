@@ -1,2 +1,1 @@
-# Jakitech
-This is our Portfolio Website!!!
+permalink: /index.html
